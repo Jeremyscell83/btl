@@ -1,0 +1,9 @@
+
+/* -----------------for pie------------------- */
+
+#menu > li > strong, .bg, .submenu_1 ul, .submenu_1 strong{ behavior: url(js/PIE.htc);}
+
+#menu > li > strong{ display: none}
+#menu > .sfHover > strong, #menu > li:hover > strong, #menu > .active > strong{ display:block}
+.submenu_1 strong{ display: none}
+.submenu_1 .sfHover > strong, .submenu_1 li:hover > strong{ display:block}
